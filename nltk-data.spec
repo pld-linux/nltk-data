@@ -12,7 +12,7 @@ Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://nltk.googlecode.com/svn/trunk/nltk_data/index.xml
-# Source0-md5:	9faafe9f56b2a88db4f8e0cc933205fc
+# Source0-md5:	4c0e93c6f647852d1c81335546a84b3b
 Source1:	http://nltk.googlecode.com/svn/trunk/nltk_data/packages/chunkers/maxent_ne_chunker.zip
 # Source1-md5:	e211969f0369b83c23f3e7f20250b338
 Source2:	http://nltk.googlecode.com/svn/trunk/nltk_data/packages/corpora/abc.zip
