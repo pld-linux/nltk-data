@@ -168,10 +168,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Natural Langauge Toolkit (NLTK-Lite) database.
+The Natural Langauge Toolkit database.
 
 %description -l pl.UTF-8
-Baza danych dla pakietu Natural Language Toolkit (NLTK-Lite).
+Baza danych dla pakietu Natural Language Toolkit.
 
 %prep
 %setup -c -T
