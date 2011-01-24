@@ -162,6 +162,7 @@ Source73:	http://nltk.googlecode.com/svn/trunk/nltk_data/packages/taggers/maxent
 Source74:	http://nltk.googlecode.com/svn/trunk/nltk_data/packages/tokenizers/punkt.zip
 # Source74-md5:	7c5bee480312a91c135123c7c3db88da
 URL:		http://www.nltk.org/data
+BuildRequires:	rpm-pythonprov
 BuildRequires:	unzip
 Requires:	python-nltk
 BuildArch:	noarch
@@ -174,7 +175,7 @@ The Natural Langauge Toolkit database.
 Baza danych dla pakietu Natural Language Toolkit.
 
 %prep
-%setup -c -T
+%setup -q -c -T
 
 PKGS=`grep "<package " %{SOURCE0} | \
   sed 's|.* subdir="\([^"]*\)".*url="\([^"]*\)".*|\1;\2|g'`
